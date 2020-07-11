@@ -15,6 +15,14 @@
 3. Clone and configure the sample 
     - Paste the following in a macOS Terminal prompt: 
       - *git clone https://github.com/aparnara/knocksforadollar/*
+
+4. Set up webhook integration using the Stripe CLI
+    - First [install the CLI](https://stripe.com/docs/stripe-cli) and [link your Stripe account](https://stripe.com/docs/stripe-cli#link-account).
+    - Run the following command:
+      - *stripe listen --forward-to localhost:4242/webhook*
+    - Set STRIPE_WEBHOOK_SECRET to value printed by CLI in your .env file below.
+    
+5. Set up .env
     - Rename the .env.example by pasting the following in a macOS Terminal prompt:
       - *mv .env.example .env*
     - Follow instructions in .env
