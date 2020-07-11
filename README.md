@@ -3,7 +3,7 @@
 ## How to run locally
 
 1. Install Homebrew
-    - Paste the following in a macOS Terminal prompt: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    - Paste the following in a macOS Terminal prompt: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 2. Install Node via Homebrew
     - Paste the following in a macOS Terminal prompt: brew install node
