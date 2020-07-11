@@ -15,6 +15,9 @@
 3. Clone and configure the sample 
     - Paste the following in a macOS Terminal prompt: 
       - *git clone https://github.com/aparnara/knocksforadollar/*
+    - Rename the .env.example by pasting the following in a macOS Terminal prompt:
+      - *mv .env.example .env*
+    - Follow instructions in .env
 
 4. Run the server and test
     - Paste the following in a macOS Terminal prompt:
