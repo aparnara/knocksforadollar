@@ -84,7 +84,7 @@ app.post("/webhook", async (req, res) => {
     // To cancel the payment after capture you will need to issue a Refund (https://stripe.com/docs/api/refunds)
     console.log("💰 Payment captured!");
    	// asynchronously log payment captured
-    fs.appendFile('log.txt', "Payment id: " + data.object.id + ", Amount: " + data.object.amount+" " + data.object.currency+"\n", function (err) {
+    fs.appendFile('log.txt', "Payment id: " + data.object.id + ", Amount: " + data.object.amount/100+" " + data.object.currency+"\n", function (err) {
     	if (err) return console.log(err);
     }); 
   } else if (eventType === "payment_intent.payment_failed") {
