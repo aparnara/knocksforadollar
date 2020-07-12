@@ -15,7 +15,7 @@
 3. Clone and configure the sample 
     - Paste the following in a macOS Terminal prompt: 
       - *git clone https://github.com/aparnara/knocksforadollar/*
-      - *cd knocksforadollar
+      - *cd knocksforadollar/accept-a-card-payment*
 
 4. Set up webhook integration using the Stripe CLI
     - First [install the CLI](https://stripe.com/docs/stripe-cli) and [link your Stripe account](https://stripe.com/docs/stripe-cli#link-account).
